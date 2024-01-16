@@ -2,23 +2,41 @@
 import random
 num = random.randint(1,100)
 
-contador = 0
+
 encertado = False
-valor = input('Introdueix un num: ')
-contador=contador+1
 
 
-while(encertado):
-    if {valor} == {num}:
-        print('Muy bien! intentos: ',contador)
-        encertado=True
+valor = int(input('Introdueix un num: '))
+
+contador = 0
+
+while(valor!=num):
     
-    elif {valor} > {num}:
-        valor=input('El numero a adivinar es mas pequeño, introduce un numero: ')
-        contador = contador +1
+    
+    
+    
+    if valor < num:
+        print('El numero a adivinar es mas grande')
+        
+        
+        
     else:
-        valor=input('El numero a adivinar es mas grande, introduce un numero: ')
-        contador = contador +1
+        print('El numero a adivinar es mas pequeño')
+        #valor = input('Introduce otro numero: ')
+      
+        
+        
+    valor = int(input('Introduce otro numero: '))
+    contador = contador +1
+        
+
+        
+        
+print('Has encertado el numero! Tus intentos son:',contador)
+   
+        
+        
+        
         
 
         
