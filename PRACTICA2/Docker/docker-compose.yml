@@ -19,8 +19,8 @@ services:
         ports:
           - "80:80"
         environment: 
-           PGADMIN_DEFAULT_EMAIL: 2023_aleksandra.jovanovic@iticbcn.cat
-           PGADMIN_DEFAULT_PASSWORD: ale22_11_99
+           PGADMIN_DEFAULT_EMAIL: aleksandra@xtec.cat
+           PGADMIN_DEFAULT_PASSWORD: ale123
 
         volumes: 
           - pgadmin-data:/var/lib/pgadmin
