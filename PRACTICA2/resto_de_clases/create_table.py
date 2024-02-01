@@ -10,7 +10,7 @@ sql = """ CREATE TABLE USERS(
    user_surname VARCHAR(255) NOT NULL, 
     user_age BIGINT NOT NULL, 
     user_email VARCHAR(255) NOT NULL,
-    user_dni VARCHAR(255) NOT NULL
+    user_dni VARCHAR(255) UNIQUE NOT NULL
  
     
     
