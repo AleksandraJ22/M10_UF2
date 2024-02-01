@@ -1,6 +1,6 @@
 import psycopg2
 
-conexio = psycopg2.connect(
+conn = psycopg2.connect(
     
     database = "postgres",
     user='user_postgres',
@@ -12,7 +12,7 @@ conexio = psycopg2.connect(
 )
 
 
-connection = conexio.cursor()
+connection = conn.cursor()
 
 print(connection)
 
