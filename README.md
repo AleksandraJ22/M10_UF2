@@ -3,9 +3,9 @@
 
 
 
-
+Captura insercion registro a tabla USERS
 ![captura_metodo_update](captura_metodo_update.png)
-
+Captura metodo read
 ![captura_metodo_read](captura_metodo_read.png)
 
 Captura antes del metodo delete
@@ -21,6 +21,4 @@ Captura antes del metodo update
 Captura despues del metodo update 
 ![captura_nombre_modificado_user](captura_nombre_modificado_user.png)
 
-Captura metodo read
-![captura_metodo_read](captura_metodo_read.png)
 
