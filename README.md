@@ -17,5 +17,5 @@ Captura antes del metodo update
 Captura despues del metodo update 
 ![captura_nombre_modificado_user](captura_nombre_modificado_user.png)
 
-Captura main
+Captura metodo crear tabla USERS2
 ![captura_main](captura_main.png)
