@@ -1,0 +1,38 @@
+from tabla2 import crearUsuarios2
+from connection import *
+from create_table import createTable
+from create import creatRegistro
+from delete import funcionDelete
+from read import funcionREAD
+from update import metodoUpdate
+
+
+
+def main():
+    
+  
+    print('MENU')
+    print('1. Delete')
+    print('2. Insertar')
+    print('3. Cambiar')
+    print('4. Ver todos los datos')
+    
+    opcion = input('Elige una opcion: ')
+    if opcion == 1:
+        funcionDelete()
+    elif opcion == 2:
+         creatRegistro()
+    elif opcion == 3:
+        metodoUpdate()
+    elif opcion == 4:
+        funcionREAD()
+        
+        
+        
+        
+        
+        
+    
+    
+if __name__ == '__main__':
+    main()

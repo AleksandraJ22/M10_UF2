@@ -1,10 +1,12 @@
-from connection import *
+from connection import hacerConexion
 
-
-sql= """ DELETE FROM public.USERS where user_id = 1"""
-
-#ejecutamos la query 
-connection.execute(sql)
-#nos aseguramos que se afectuen los cambios
-conn.commit()
+def funcionDelete():
+    sql= """ DELETE FROM public.USERS where user_id = 1"""
+    variable = hacerConexion()
+    #ejecutamos la query 
+    variable.execute(sql)
+    #nos aseguramos que se afectuen los cambios
+    variable.commit()
+    print('Eliminado correctamente')
+    
 
