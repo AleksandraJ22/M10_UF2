@@ -1,7 +1,3 @@
-# M10_UF2
-
-
-
 
 Captura insercion registro a tabla USERS
 ![captura_metodo_update](captura_metodo_update.png)
@@ -21,4 +17,5 @@ Captura antes del metodo update
 Captura despues del metodo update 
 ![captura_nombre_modificado_user](captura_nombre_modificado_user.png)
 
-
+Captura main
+![captura_main](captura_main.png)
