@@ -2,4 +2,4 @@
 
 
 
-![Captura cambios metodo update](captura_metodo_update.png)
+![captura_metodo_update](captura_metodo_update.png)
