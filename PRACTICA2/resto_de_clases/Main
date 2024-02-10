@@ -8,6 +8,8 @@ from update import metodoUpdate
 
 
 
+
+
 def main():
     
   
@@ -16,6 +18,7 @@ def main():
     print('2. Insertar')
     print('3. Cambiar')
     print('4. Ver todos los datos')
+    print('5.Crear bd')
     
     opcion = input('Elige una opcion: ')
     if opcion == 1:
@@ -26,13 +29,10 @@ def main():
         metodoUpdate()
     elif opcion == 4:
         funcionREAD()
+    elif opcion == 5:
+        createTable()
         
-        
-        
-        
-        
-        
-    
+       
     
 if __name__ == '__main__':
     main()

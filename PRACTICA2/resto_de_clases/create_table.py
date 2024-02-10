@@ -23,4 +23,6 @@ def createTable():
         #ejecutamos la query 
     variable.execute(sql)
     print(variable)
-    variable.commit() #para realizar los cambios 
+    #variable.commit() #para realizar los cambios 
+    print('Se ha creado correctamente')
+    

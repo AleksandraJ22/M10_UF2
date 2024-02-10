@@ -8,7 +8,7 @@ def funcionLeerJSON():
         print(result)
         
         
+
         
-funcionLeerJSON()
         
         
