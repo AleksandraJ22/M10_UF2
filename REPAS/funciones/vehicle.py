@@ -1,8 +1,7 @@
 
+import json
 
-
-class Vehicle:
-    
+class Vehicle():
     
     def __init__(self, marca, model, any, matricula, places, kilometros):
         self.marca=marca
@@ -49,19 +48,45 @@ class Vehicle:
         self.kilometros=kilometros
         
       
-    def parts():
+    def parts(self):
         
-        print('Atributos: '+ '\n')
-        print('Marca: {marca}, Model: {model}, Any: {any}, Matricula: {matricula}, Places: {places}, Kilometros: {kilometros}')
-        
-     
-    
-    v1 = Vehicle('nissan','nissan 2X','2010','FDGFBFB3232', '6', '10000')
-    v1.parts()
+        print(f'Marca: {self.marca}, Model: {self.model}, Any: {self.any}, Matricula: {self.matricula}, Places: {self.places}, Kilometros: {self.kilometros}')
         
         
         
         
+    def to_dict(self):
+        
+        
+      
+        
+        diccionario = { 
+                        'marca':self.marca,
+                        'model':self.model,
+                        'any':self.any,
+                        'matricula':self.matricula,
+                        'places':self.places,
+                        'kilometros':self.kilometros
+             
+         }
+        with open("vehicle.json", "w") as file:
+            json.dump(diccionario,file)
+            
+            
+    def LeerJSON(self):
+        with open('vehicle.json', 'r') as file:
+            result = json.load(file)
+            print(result)
+        
+        
+         
+         
+         
+
+
+
+
+
         
     
     
