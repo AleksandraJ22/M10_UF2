@@ -25,7 +25,8 @@ Captura metodo crear tabla USERS2
 #tutorial instalar odoo
 
 paso 1:
-![tutorial1](tutorial1.png)
+![tutorial1]
+(tutorial1.png)
 
 paso 2:
 ![tutorial2](tutorial2.png)
