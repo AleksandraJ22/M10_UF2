@@ -1,10 +1,12 @@
 
-from connection import *
+from connection import hacerConexion
 
 
 #creamos la query 
 
-sql = """ CREATE TABLE USERS(
+
+def createTable():
+    sql = """ CREATE TABLE USERS(
     user_id SERIAL PRIMARY KEY, 
     user_name VARCHAR(255) NOT NULL, 
    user_surname VARCHAR(255) NOT NULL, 
@@ -16,9 +18,11 @@ sql = """ CREATE TABLE USERS(
     
     )"""
     
+    print(sql)
+    variable = hacerConexion()
+        #ejecutamos la query 
+    variable.execute(sql)
+    print(variable)
+    #variable.commit() #para realizar los cambios 
+    print('Se ha creado correctamente')
     
-print(sql)
-    #ejecutamos la query 
-connection.execute(sql)
-print(connection)
-conn.commit() #para realizar los cambios 
