@@ -7,7 +7,7 @@ Captura metodo read
 Captura antes del metodo delete
 ![Captura antes del metodo delete](captura_antes_Del_metodo_delete.png)
 
-Captura des`pues del metodo delete
+Captura despues del metodo delete
 
 ![Captura despues del metodo delete](captura_despues_del_metodo_delete.png)
 
