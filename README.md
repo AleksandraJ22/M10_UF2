@@ -62,11 +62,38 @@ Paso 11:
 Paso 12:
 ![cap12](cap12.png)
 
-Paso 13:
+
+
+Canviar usuari de sistema odoo y entrar en /home/odoo13
 ![cap13](cap13.png)
 
-Paso 14:
+Descargar codigo odoo de github y ver lo que hay dentro
 ![cap14](cap14.png)
 
-Paso 15:
+Creacion de un entorno virtual de python dentro del directorio de odoo
 ![cap15](cap15.png)
+
+Activar entorno virtual:
+![activar_entorn_virtual_python.png](activar_entorn_virtual_python.png)
+
+Instalar requisitos de python dentro de directorio virtual:
+
+![instalacio_req_python](instalacio_req_python.png)
+
+Instalar fichero requirements.txt 
+![Alt instalar_req_txt_paso18](instalar_req_txt_paso18.png)
+
+Parametros para editar el fichero odoo-conf:
+
+![editar_fichero_odoo_conf](editar_fichero_odoo_conf.png)
+
+Asi queda el fichero odoo-conf editado:
+![fichero_odoo_conf_editado](fichero_odoo_conf_editado .png)
+
+
+Activar otra vez entorno virtual y ejecutar odoo:
+![ejecutar_odoo](ejecutar_odoo.png)
+
+Odoo:
+
+![odoo](odoo.png)
