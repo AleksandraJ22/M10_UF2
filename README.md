@@ -21,28 +21,52 @@ Captura metodo crear tabla USERS2
 ![captura_main](captura_main.png)
 
 
-
 #tutorial instalar odoo
 
 paso 1:
-![tutorial1](tutorial1.png)
+![cap1]
+(cap1.png)
 
 paso 2:
-![tutorial2](tutorial2.png)
+![cap2](cap2.png)
 
 Paso 3:
-![tutorial3](tutorial3.png)
+![cap3](cap3.png)
 
-Paso4:
-![tutorial4](tutorial4.png)
+Paso 4:
+![cap4](cap4.png)
 
-Paso5:
-![tutorial5](tutorial5.png)
-
-
-descomprimimos en directorio /Escriptori:
-![tutorial6](tutorial6.png)
+Paso 5:
+![cap5](cap5.png)
 
 
-Ejecutamos el archivo odoo.py:
-![tutorial7](tutorial7.png)
+Paso 6:
+![cap6](cap6.png)
+
+
+Paso 7:
+![cap7](cap7.png)
+
+Paso 8:
+![cap8](cap8.png)
+
+Paso 9:
+![cap9](cap9.png)
+
+Paso 10:
+![cap10](cap10.png)
+
+Paso 11:
+![cap11](cap11.png)
+
+Paso 12:
+![cap12](cap12.png)
+
+Paso 13:
+![cap13](cap13.png)
+
+Paso 14:
+![cap14](cap14.png)
+
+Paso 15:
+![cap15](cap15.png)
