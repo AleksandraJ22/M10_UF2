@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 Captura insercion registro a tabla USERS
 ![captura_metodo_update](captura_metodo_update.png)
@@ -8,29 +7,7 @@ Captura metodo read
 Captura antes del metodo delete
 ![Captura antes del metodo delete](captura_antes_Del_metodo_delete.png)
 
-Captura des`pues del metodo delete
-
-![Captura despues del metodo delete](captura_despues_del_metodo_delete.png)
-
-Captura antes del metodo update
-![captura_metodo_update](captura_metodo_update.png)
-
-Captura despues del metodo update 
-![captura_nombre_modificado_user](captura_nombre_modificado_user.png)
-
-Captura main
-![captura_main](captura_main.png)
-=======
-
-Captura insercion registro a tabla USERS
-![captura_metodo_update](captura_metodo_update.png)
-Captura metodo read
-![captura_metodo_read](captura_metodo_read.png)
-
-Captura antes del metodo delete
-![Captura antes del metodo delete](captura_antes_Del_metodo_delete.png)
-
-Captura des`pues del metodo delete
+Captura despues del metodo delete
 
 ![Captura despues del metodo delete](captura_despues_del_metodo_delete.png)
 
@@ -42,4 +19,30 @@ Captura despues del metodo update
 
 Captura metodo crear tabla USERS2
 ![captura_main](captura_main.png)
->>>>>>> f745ba12b799d3a08aa73b862122afd630ceea2a
+
+
+
+#tutorial instalar odoo
+
+paso 1:
+![tutorial1](tutorial1.png)
+
+paso 2:
+![tutorial2](tutorial2.png)
+
+Paso 3:
+![tutorial3](tutorial3.png)
+
+Paso4:
+![tutorial4](tutorial4.png)
+
+Paso5:
+![tutorial5](tutorial5.png)
+
+
+descomprimimos en directorio /Escriptori:
+![tutorial6](tutorial6.png)
+
+
+Ejecutamos el archivo odoo.py:
+![tutorial7](tutorial7.png)
